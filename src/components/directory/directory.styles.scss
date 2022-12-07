@@ -1,0 +1,13 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+.directory-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
